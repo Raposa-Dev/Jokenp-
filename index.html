@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- JS -->
+    <title>Game Jokenpô</title>
+    <script type="text/javascript" src="./main.js" defer=""></script>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <main>
+        <div id="screenOne" class="screenOne">
+          <h1>
+            Jokenpô
+          </h1>
+          <img id="img-hero" src="./images/jkp.png" alt="Pedra, Papel, Tesoura." >
+          <div class="cards">
+
+            <a id="rock" class="0" onclick="inity(event)" href="#">Pedra</a>
+
+            <a id="paper" class="1" onclick="inity(event)" href="#">Papel</a>
+
+            <a id="scissors" class="2" onclick="inity(event)" href="#">Tesoura</a>
+
+          </div>
+        </div>
+
+        <div id="screenTwo" class="screenTwo hidden">
+          <h2>Fim de jogo</h2>
+          <p>
+            <strong>
+            <span id="message">___</span>
+          </strong>
+          </p>
+
+          <a id="btn-end" onclick="shiftClass()" href="#">Jogar novamente</a>
+        </div>
+      </main>
+
+    </div>
+
+
+  </body>
+
+</html>
