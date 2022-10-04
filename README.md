@@ -1,2 +1,2 @@
-# Jokenp-
+# Jokenpô
 Jogo pedra, papel, tesoura.
